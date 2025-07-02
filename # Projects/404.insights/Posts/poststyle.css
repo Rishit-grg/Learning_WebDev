@@ -1,0 +1,59 @@
+*{
+font-family: "Tinos", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body{
+    background-color: rgb(15, 15,15);
+}
+
+/*navbar*/
+.navbar{
+    background-color: #008170;
+    padding: 10px;
+    border-radius: 10px;
+}
+.navbar-items{
+  display: inline;
+    margin: 5px;
+    color: white;   
+}
+
+/* article*/
+.text{
+    width: 40%;
+    margin-left: 30%;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 3rem;
+    color: white;
+}
+.main-img{
+    width: 100%;
+    border-radius: 10px;
+}
+p{
+    font-size: 1rem;
+    color: white;
+}
+
+/*footer*/
+footer{
+    background-color: #008170;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
+footer>a{
+    color: white;
+}
+@media (max-width: 680px){
+
+
+.text{
+    width: 100%;
+    margin: 0%;
+}
+}
